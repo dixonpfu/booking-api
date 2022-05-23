@@ -1,0 +1,48 @@
+.ant-layout-header,
+.ant-layout-footer {
+  color: #fff;
+  background: #7dbcea;
+  background: rgb(47, 112, 158);
+}
+.ant-layout-footer {
+  line-height: 1.5;
+}
+.ant-layout-content {
+  min-height: 300px;
+  min-width: 1300px;
+  color: rgb(6, 51, 17);
+  background: rgb(92, 178, 240);
+}
+.court-row-wrapper {
+  display: inline-flex;
+  border: solid 1px #272c72;
+}
+.court-row {
+  width: 100%;
+  border-spacing: 1px;
+  display: inline-flex;
+}
+.booking-item {
+  background: #508f43;
+  border: solid 2px #2b4d25;
+  padding: 2px;
+  position: absolute;
+  height: 60px;
+  cursor: pointer;
+}
+.booking-item:hover {
+  background: #70b997;
+  border: double 3px #2b4d25;
+}
+.empty-cell {
+  border: solid 0.2px #272c72;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+.work-hour {
+  border: solid 0.2px #272c72;
+  width: 60px;
+  text-align: center;
+}
